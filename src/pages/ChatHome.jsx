@@ -87,7 +87,7 @@ const ChatHome = () => {
   // 🔍 Fetch Offline People
   const fetchOfflinePeople = async () => {
     try {
-      const res = await axios.get("/api/user/people");
+      const res = await axios.get(`${API_BASE}/api/user/people`, { withCredentials: true });
       const offline = res.data
         .filter((p) => p._id !== userDetails?._id)
         .filter((p) => !onlinePeople[p._id])
