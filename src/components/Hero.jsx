@@ -84,11 +84,11 @@ const Hero = () => {
         </div>
 
         {/* Right Side Image */}
-        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center">
           <img
             src={hero}
             alt="App mockup"
-            className="mix-blend-screen drop-shadow-lg"
+            className=" w-1/2 h-1/2 mix-blend-screen drop-shadow-lg"
           />
         </div>
       </div>

@@ -8,6 +8,7 @@ ScrollRestoration,
 import './App.css';
 import Register from "./pages/Register";
 import Login from "./pages/Login";
+import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import { Toaster } from "react-hot-toast";
 import VerifyEmail from "./pages/VerifyEmail";
@@ -58,6 +59,10 @@ element: <ChatHome />,
 {
 path: "profile",
 element: <Profile />,
+},
+{
+ path: "contact",
+ element: <Contact />,
 },
 ],
 },

@@ -23,11 +23,11 @@ const Payments = () => {
             Best option for personal use & for your next project
           </p>
           <div className="flex justify-center items-baseline my-8">
-            <span className="mr-2 text-5xl font-extrabold">$29</span>
-            <span className="text-gray-400">/month</span>
+            <span className="text-gray-800">₹1000</span>
+            <span className="text-gray-800">/month</span>
           </div>
 
-          <ul role="list" className="mb-8 space-y-4 text-left">
+          <ul role="list" className="text-gray-800 mb-8 space-y-4 text-left">
             {[
               "Individual configuration",
               "No setup, or hidden fees",
@@ -57,11 +57,11 @@ const Payments = () => {
             Relevant for multiple users, extended & premium support
           </p>
           <div className="flex justify-center items-baseline my-8">
-            <span className="mr-2 text-5xl font-extrabold">$99</span>
-            <span className="text-gray-400">/month</span>
+            <span className="text-gray-800">₹3000</span>
+            <span className="text-gray-800">/month</span>
           </div>
 
-          <ul role="list" className="mb-8 space-y-4 text-left">
+          <ul role="list" className="text-gray-800 mb-8 space-y-4 text-left">
             {[
               "Individual configuration",
               "No setup, or hidden fees",
@@ -91,11 +91,11 @@ const Payments = () => {
             Best for large scale uses and extended redistribution rights
           </p>
           <div className="flex justify-center items-baseline my-8">
-            <span className="mr-2 text-5xl font-extrabold">$499</span>
-            <span className="text-gray-400">/month</span>
+            <span className="text-gray-800">₹5000</span>
+            <span className="text-gray-800">/month</span>
           </div>
 
-          <ul role="list" className="mb-8 space-y-4 text-left">
+          <ul role="list" className=" text-gray-800 mb-8 space-y-4 text-left">
             {[
               "Individual configuration",
               "No setup, or hidden fees",
