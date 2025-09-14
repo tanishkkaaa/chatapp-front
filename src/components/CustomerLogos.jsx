@@ -23,7 +23,7 @@ const CustomerLogos = () => {
               <img
                 src={src}
                 alt={`Logo ${i + 1}`}
-                className="h-12 object-contain hover:opacity-80 transition"
+                className="h-24 object-contain hover:opacity-80 transition"
               />
             </a>
           ))}
